@@ -1,0 +1,60 @@
+.grid {
+    background-image:url(saveEarth.jfif);
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 1600px; 
+    height: 1000px; 
+    background-size: 1600px 1000px;
+
+}
+
+.grid div {
+    width: 80px;
+    height: 80px;
+
+}
+
+.shooter {
+    background-image:url(characters/clipart2908532.png);
+    background-size: 80px 80px;
+    position: relative;
+    z-index: index 1;
+    
+}
+
+.invader {
+    
+    background-image:url(characters/pngwing.com.png);
+    background-size: 80px 80px;
+    position: relative;
+    z-index: index 1;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.boom {
+    background-image: url(characters/boom.png);
+    background-size: 80px 80px;
+    width: 80px;
+    height: 80px;
+    z-index: index 1;
+}
+
+.laser {
+    background-image:url(characters/laser.png);
+    background-size: 40px 80px;
+    width: 40px;
+    height: 80px;
+    z-index: index 1;
+    
+}
+h3, #result {
+    font-family: 'Orbitron', sans-serif;
+    color:#39FF14;
+    text-align:center;
+    position:unset;
+}
