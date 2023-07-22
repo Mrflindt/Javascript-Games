@@ -1,0 +1,41 @@
+.grid {
+    position:absolute;
+    background-image:url(nightBG.jpg);
+    background-size:900px 506px;
+    z-index: -1;
+    height: 506px;
+    width: 900px;
+    align-content: center;
+
+}
+.dino {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image:url(characters/alien_green/green__0000_idle_1.png);
+    background-size: 60px 60px;
+    bottom: 0px;
+    align-content: center;
+   
+}
+
+.obstacle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image:url(characters/Zombie_male/Attack11.png);
+    background-size: 60px 60px;
+    bottom: 0px;
+    align-content: center;
+    
+}
+#alert {
+    position:absolute;
+    align-content: center;
+    text-align: center;
+    padding-left: 19%;
+    padding-top: 9%;
+    font-size: 2em;
+    z-index: +1;
+}
+
